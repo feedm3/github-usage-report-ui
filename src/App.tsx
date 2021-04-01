@@ -103,8 +103,8 @@ function App() {
         <input {...getInputProps()} />
         {
           isDragActive ?
-            <p>Drop the files here ...</p> :
-            <p>Drag 'n' drop some files here, or click to select files</p>
+            <p>Drop the usage report csv here ...</p> :
+            <p>Drag 'n' drop the usage report here, or click to select it</p>
         }
       </div>
       {
